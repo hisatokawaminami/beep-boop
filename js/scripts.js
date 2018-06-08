@@ -12,7 +12,7 @@ var beepBoop = function(userInput){
       }
       // divisible by 3 -> Sorry Dave
       else if(i % 3 === 0){
-        arr.push("I'm sorry, Dave. I'm afraid I can't do that.")
+        arr.push("I'm sorry, " + $("input#userName").val() + ". I'm afraid I can't do that.")
 
       // 1s -> Boop
       } else if(ruleOne(i)=== true){
@@ -58,6 +58,7 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = parseInt($("input#userInput").val());
     var output = beepBoop(userInput);
+    // var userName = $("input#userName").val();
     $("#result").text(output);
   });
 });

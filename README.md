@@ -13,7 +13,7 @@ Create a webpage for a weekly project using arrays and looping
 |Behavior|Input Numbers|Roman Numeral Output|
 |:--------|:-------------:|:--------------:|
 |Takes a number from a user and returns a range of numbers from 0 to the chosen number|if input = 10|0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-|1. Replaces every number contains a 0 with "Beep!"|0|"Beep!"|
+|Replaces every number contains a 0 with "Beep!"|0|"Beep!"|
 |Replaces every number contains a 1 with "Boop!"|1|"Boop!"|
 |Replaces every number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."|3|"I'm sorry, Dave. I'm afraid I can't do that."|
 |If both the "Beep" and "Boop" rules apply to a number, the "Boop" rule overrides|10|"Boop!"
