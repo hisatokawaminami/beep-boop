@@ -11,14 +11,28 @@ var beepBoop = function(userInput){
       }
       else if(i % 3 === 0){
         arr.push("I'm sorry, Dave. I'm afraid I can't do that.")
+      } else if(ruleOne(i)=== true){
+            arr.push("Boop!")
 
 console.log(arr)
 
-    } else
-      arr.push(i)
-    }
+          } else if(userInput.toString().indexOf(0)===!-1){
+            arr.push("Beep!")
+          } else
+
+            arr.push(i)
+        }
+      }
+    return arr;
   }
-  return arr;
+
+var ruleOne   = function(userInput){
+var result = userInput.toString().indexOf(1);
+if(result === -1){
+return false;
+} else {
+return true;
+}
 }
 
 
