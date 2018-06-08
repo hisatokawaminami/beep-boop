@@ -1,19 +1,33 @@
-# Epicodus Ready to Use Folder
+# Epicodus Week3 Project Beep Boop
 
 ## Created
 
-05/31/2018
+06/08/2018
 
 ## About
 
-Create an default folder
+Create a webpage for a weekly project using arrays and looping
+
+## Spec
+
+|Behavior|Input Numbers|Roman Numeral Output|
+|:--------|:-------------:|:--------------:|
+|Takes a number from a user and returns a range of numbers from 0 to the chosen number|if input = 10|0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+|1. Replaces every number contains a 0 with "Beep!"|0|"Beep!"|
+|Replaces every number contains a 1 with "Boop!"|1|"Boop!"|
+|Replaces every number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."|3|"I'm sorry, Dave. I'm afraid I can't do that."|
+|If both the "Beep" and "Boop" rules apply to a number, the "Boop" rule overrides|10|"Boop!"
+|If all three rules apply to a number, the "I'm sorry..." rule overrides| 120 | "I'm sorry, Dave. I'm afraid I can't do that."|
+
 
 ## Technology Used
 
-HTML, CSS, Javascript, jQuery
+HTML, CSS, Javascript, jQuery, bootstrap
 
 ## Installation
-Clone from: https://github.com/hisatokawaminami/default
+
+Clone from:
+https://github.com/hisatokawaminami/beep-boop.git
 
 ## Credits
 Hisato Kawaminami
