@@ -12,29 +12,36 @@ var beepBoop = function(userInput){
       else if(i % 3 === 0){
         arr.push("I'm sorry, Dave. I'm afraid I can't do that.")
       } else if(ruleOne(i)=== true){
-            arr.push("Boop!")
+          arr.push("Boop!")
 
 console.log(arr)
 
-          } else if(userInput.toString().indexOf(0)===!-1){
+        } else if(ruleZero(i)=== true){
             arr.push("Beep!")
           } else
-
-            arr.push(i)
+              arr.push(i)
         }
       }
     return arr;
   }
 
-var ruleOne   = function(userInput){
-var result = userInput.toString().indexOf(1);
-if(result === -1){
-return false;
-} else {
-return true;
-}
+var ruleOne  = function(userInput){
+  var result = userInput.toString().indexOf(1);
+  if(result === -1){
+    return false;
+  } else {
+    return true;
+  }
 }
 
+var ruleZero = function(userInput){
+  var result = userInput.toString().indexOf(0);
+  if(result === -1){
+    return false;
+  } else {
+    return true;
+  }
+}
 
 
 // user interface logic
