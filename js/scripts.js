@@ -6,20 +6,21 @@ var beepBoop = function(userInput){
   }
   else {
     for (var i = 0; i <= userInput; i++){
-      if(i % 10 === 0){
-        arr.push("I'm sorry, Dave. I'm afraid I can't do that.")
-      }
-      else if(i.toString().match(1)){
-        arr.push("Boop!")
-      }
-      else if(i.toString().match(0)){
+      if(i === 0){
         arr.push("Beep!")
-      } else
+      }
+      else if(i % 3 === 0){
+        arr.push("I'm sorry, Dave. I'm afraid I can't do that.")
+
+console.log(arr)
+
+    } else
       arr.push(i)
     }
   }
   return arr;
 }
+
 
 
 // user interface logic
